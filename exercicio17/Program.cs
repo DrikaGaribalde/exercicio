@@ -3,7 +3,7 @@
 namespace exercicio17 {
     class Program {
         static void Main(string[] args) {
-            Console.WriteLine("Hello World!");
+            //implementar exercício 18
         }
     }
 }
