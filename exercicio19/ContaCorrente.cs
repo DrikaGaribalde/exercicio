@@ -12,10 +12,10 @@ namespace exercicio19 {
         public ContaCorrente(double V, char T) {
             Valor = V;
             Transacao = T;
-            NumTransESando();
+            NumTransESaldo();
         }
 
-        public void NumTransESando() {
+        public void NumTransESaldo() {
             NumTrans++;
             if (Transacao == 'D') {
                 Saldo += Valor;
